@@ -14,3 +14,8 @@ dependencyResolutionManagement {
 }
 rootProject.name = "MultiRepoProject"
 include ':app'
+include ':ReusableComponents:uicomponents'
+include ':ShowHidePasswordView:ShowHidePasswordView'
+
+//project(':uicomponents').prjectDir = File('ReusableComponents/uicomponents')
+//project(':ShowHidePasswordView').prjectDir = File('ShowHidePasswordView/ShowHidePasswordView')
